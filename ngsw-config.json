@@ -32,12 +32,12 @@
   "dataGroups": [
     {
       "name": "data",
-      "urls": ["https://jsonplaceholder.typicode.com/posts"],
+      "urls": ["http://jsonplaceholder.typicode.com/posts"],
       "cacheConfig": {
         "maxSize": 50,
         "maxAge": "1d",
         "timeout": "1d",
-        "strategy": "freshness"
+        "strategy": "performance"
       }
     }
   ]
